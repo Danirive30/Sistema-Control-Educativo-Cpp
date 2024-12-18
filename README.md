@@ -29,6 +29,21 @@ Para ejecutar este proyecto en tu máquina, sigue estos pasos:
 1. **Clona el repositorio**:
    ```bash
    git clone https://github.com/tu-usuario/Sistema-Control-Educativo.git
+   ```
+
+2. **Compila el código: Si estás utilizando un compilador como `g++`, compila el archivo principal `control_academico.cpp`:**:
+   ```bash
+   g++ control_academico.cpp -o control_academico
+   ```
+
+3. **Ejecuta el programa:**:
+   ```bash
+   ./control_academico.cpp
+   ```
+
+## Uso
+
+Una vez que hayas ejecutado el programa, podrás interactuar con el menú. El sistema te pedirá ingresar datos de ejemplo para los `profesores`, `alumnos` y `materias`. Posteriormente, podrás realizar consultas utilizando las claves de registro para acceder a la información almacenada.
 
 
 # Sistema-Control-Educativo-Cpp
